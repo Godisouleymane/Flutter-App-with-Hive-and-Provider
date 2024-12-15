@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:hive_provider/associateData.dart';
 import 'package:hive_provider/model/associate.dart';
+import 'package:hive_provider/pages/associateList.dart';
+import 'package:hive_provider/pages/associateView.dart';
 import 'package:provider/provider.dart';
 
 class AssociateTile extends StatelessWidget {
