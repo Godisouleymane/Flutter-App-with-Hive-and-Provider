@@ -4,7 +4,7 @@ import 'package:hive/hive.dart';
 part 'associate.g.dart';
 
 @HiveType(typeId: 0)
-class Associate {
+class Associate extends HiveObject {
 
   @HiveField(0)
   final String name;
